@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" >
+      <img style="margin-left: 180px; position: center;" class="img img-responsive" src="https://www.journalducameroun.com/en/wp-content/uploads/2017/05/Joshua_Osih-780x440.jpg">
+    </a>
+    <h1>JOSHUA OSIH FOR PRESIDENT</h1>
+    <p>This is a temporal page.  The official page will be live soon</p>
+    <a type="button" class="btn btn-lg btn-default" href="#"><span class="glyphicon glyphicon-flash"></span> </a>
+
+    
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Send Message</button>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Send Message</h4>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJKQoiW2Ox9us1kA-Qx8HS0mdIA2ZCraZo5I25nsddWgTkgQ/viewform?embedded=true" width="500" height="320" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+<div class="container">
+  <hr>
+  
+   <div class="alert alert-info text-center" role="alert">
+    Powered by Heroku
+  </div>
+</div>
+
+
+</body>
+</html>
